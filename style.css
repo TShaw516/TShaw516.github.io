@@ -4,22 +4,38 @@
     font: 400 16px 'Montserrat', 'sans-serif';
 }
 
+body{
+    background-image: url('images/Blue Electric Background.jpg');
+    background-blend-mode: lighten;
+    background-attachment: fixed;
+
+}
 footer {
-    background-color: navy;
+    background-image: url('images/header-background.jpg');
     color: white;
     font-size: 1.2rem;
     border-top: 4px solid orange;
 }
 h1 {
-    color: navy;
+    color: darkblue;
     font-size: 2rem;
 }
 header {
-    background-color: navy;
+    background-image: url('images/header-background.jpg');
     color: white;
     text-shadow: orange;
     border-bottom: 4px solid orange;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        
+      }
+
 
 .photo{
 position: fixed;
@@ -28,35 +44,13 @@ position: fixed;
 
 main {
 }
-nav {
-    background-color: navy;
-}
-    nav a {
+nav{    background-image: url('images/header-background.jpg') 
         color: orange;
         font-weight: 900;
         font-size: 1.2rem;
         text-decoration: none;
-    }
-ol,
-ul {
-    list-style-type: none;
-}
-small {
-    font-size: .8rem;
 }
 
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-    }
-    
-    ul{
-        display: flex;
-        flex-direction: row;
-        
-        }
 #blah{
 font-size: 30px;
 color: orange;
