@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+footer,
+header,
+main {
+    padding: 17px;
+}
+footer {
+    grid-column: 1 / -1;
+}
+header {
+    grid-column: 1 / -1;
+}
+nav {
+    padding: 5px;
+}
+    nav li {
+        margin: 3px;
+    }
+
+.container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 75px auto 120px;
+    min-height: 100vh;
+}
