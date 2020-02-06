@@ -1,25 +1,30 @@
 
 
 * {
-    font: 400 14px 'Roboto';
+    font: 400 16px 'Montserrat', 'sans-serif';
 }
 
 footer {
     background-color: navy;
     color: white;
-    text-shadow: orange;
-    border-bottom: 2px solid white;
+    border-top: 4px solid orange;
 }
 h1 {
     color: navy;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 header {
     background-color: navy;
     color: white;
     text-shadow: orange;
-    border-bottom: 2px solid white;
+    border-bottom: 4px solid orange;
 }
+
+.photo{
+border-image: fill;
+
+}
+
 main {
 }
 nav {
@@ -27,7 +32,7 @@ nav {
 }
     nav a {
         color: orange;
-        font-weight: 700;
+        font-weight: 900;
         text-decoration: none;
     }
 ol,
@@ -50,29 +55,10 @@ header{
         flex-direction: row;
         
         }
-    
-    .cards{
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    
-    }
-    
-    .card{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
-    }
-    
-    small{
-    display: flex;
-    justify-content: center;
-    
-    }
-    
-    .social-media{
-    display: flex;
-    justify-content: flex-end;
-    
-    }
+#blah{
+font-size: 30px;
+color: orange;
+padding: 10px;
+
+}
+
