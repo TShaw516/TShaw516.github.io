@@ -5,38 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Professional Portfolio Page</title>
-    <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class= "container">
         <nav>
-            <ul class="sidebar-list">
-                <li><a href="#Section-Main"> Main Section </a></li>
-                <li><a href="#About-Me"> About Me </a></li>
-                <li><a href="#Projects"> Projects </a></li>
-                <li>    
-                        <a class="btn btn-primary">
-                        <a href="https://www.linkedin.com/in/tom-shaw-a7a4319b/" class="fa fa-linkedin" id="blah">
-                    </a>
-                </li>
-                <li> <a class="btn btn-primary">
-                        <a href="https://github.com/TShaw516?tab=repositories" class="fa fa-github" id="blah">
-                    </a>
-                </li>
-            </ul>
+            
+                <img src="images/Headshot.jpg" class="Photo" alt="Professional Headshot" title="The Goat">
+                <a href="#Home" class="sidebar-items"><i class="fa fa-home w3-xxlarge"></i>
+                    <p>Home</p></a> 
+                <a href="#About-Me" class="sidebar-items"><i class="fa fa-user w3-xxlarge"></i>
+                    <p>About Me</p></a>
+                <a href="#Projects" class="sidebar-items"><i class="fa fa-eye w3-xxlarge"></i>
+                    <p>Projects</p></a>
+                <a href="#Contact" class="sidebar-items"> <i class="fa fa-envelope w3-xxlarge"></i>
+                    <p>Contact Me</p></a>
+                <a href="https://www.linkedin.com/in/tom-shaw-a7a4319b/" class="sidebar-items"><i class="fa fa-linkedin"></i>
+                    <p>LinkedIn</p></a>
+                <a href="https://github.com/TShaw516?tab=repositories" class="sidebar-items"><i class="fa fa-github"></i>
+                    <p>GitHub</p></a>
+            
         </nav>
-    <main id="Section-Main">
-        <h1> Professional Portfolio Page </h1>
-    <section id="About-Me">
-        <h3> About Me </h3>
-        <img src="images/Headshot.jpg" class="Photo" alt="Professional Headshot" title="The Goat">
-    </section>
-    <section id="Projects">
-        <h3> Projects </h3>
-    </section>
-    </main>
+    <main>
+        <section id="Home">
+            <H1>Thomas Shaw - Junior Developer</H1>
+        </section>
+        <div>
+        <section id="About-Me">
+            <h3> About Me </h3>
+            <p>
+                I am currently an apprentice software developer at WeCanCodeIT. My objective is to develop my programming skills in order to become a highly productive
+               self-sufficient programmer. My programming skills increasing at a rapid rate and hope to heavily contribute to any development team I join in the future.
+            </p>
+        </section>
+        </div>
+        <div>
+        <section id="Projects">
+            <h3> Projects </h3>
+        </section>
+        </div>
+        <div>
+        <section id="Contact">
+            <h3> Contact Me </h3>
+            <form action="/action_page.php" target="TShaw516@gmail.com">
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+                <p>
+                  <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                  </button>
+                </p>
+              </form>
+        </section>
+        </div>
+        </main>
     </div>
 </body>
 </html>

@@ -1,60 +1,65 @@
-
-
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font: 400 16px 'Montserrat', 'sans-serif';
 }
+.container {
+    display: grid;
 
-body{
-    background-image: url('images/Blue Electric Background.jpg');
-    background-blend-mode: lighten;
-    background-attachment: fixed;
+    grid-template-areas:
 
-}
-footer {
-    background-image: url('images/header-background.jpg');
-    color: white;
-    font-size: 1.2rem;
-    border-top: 4px solid orange;
-}
-h1 {
-    color: darkblue;
-    font-size: 2rem;
-}
-header {
-    background-image: url('images/header-background.jpg');
-    color: white;
-    text-shadow: orange;
-    border-bottom: 4px solid orange;
+      "nav content";
+
+
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto;
+    height: 100vh;
+  }
+   
+  nav{  
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    }
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 26px;
+    color: orange;
+    background-image: url('images/header-background.jpg');
+    text-decoration: none;
+    overflow: auto;
+    align-items: center;
     
-    ul{
-        display: flex;
-        flex-direction: row;
-        
-      }
 
+    } 
 
-.photo{
-position: fixed;
-
-}
-
-main {
-}
-nav{    background-image: url('images/header-background.jpg') 
+nav a{
         color: orange;
-        font-weight: 900;
-        font-size: 1.2rem;
-        text-decoration: none;
+        align-content: stretch;
+        font-weight: 700;
+        font-size: 2rem;
 }
 
-#blah{
-font-size: 30px;
-color: orange;
-padding: 10px;
-
+main{
+    grid-area: content;
+    background-image: url('images/abstract.jpg');
+    background-position: center;
 }
 
+
+.Photo{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    color: inherit;
+}
+
+.sidebar-items{
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+
+}
+i{
+    margin: auto;
+
+}
