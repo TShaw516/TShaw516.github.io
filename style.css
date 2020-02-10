@@ -92,7 +92,8 @@ i{
     width:100%;
     padding-bottom: 25px;
     color: silver;
-    border-bottom: silver ridge 5px;
+    border-bottom: silver ridge 10px;
+    border-radius: 5px;
 }
 
 header h1 {
@@ -208,7 +209,7 @@ section p{
     }
 
     .divider{
-        border: 10px solid silver;
+        border-bottom: 10px ridge silver;
         border-radius: 5px;
 
     }
