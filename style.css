@@ -20,11 +20,13 @@
 
 
 main {
-    background-color: whitesmoke;
+    background-color: black;
     background-size: 100%;
     background-position: bottom;
     background-size: inherit;
     margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
   
 }
    
@@ -33,21 +35,31 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     font-size: 26px;
-    color: orange;
-    background-image: url('images/header-background.jpg');
+    color: silver;
+    background-color: black;
     text-decoration: none;
     overflow: auto;
     align-items: center;
-    border-right: orange solid 5px;
+    border-right: silver solid 5px;
     
 
     } 
 
 nav a{
-        color: orange;
+        color: silver;
         align-content: stretch;
         font-weight: 700;
         font-size: 2rem;
+        font-weight: bold;
+        
+}
+
+a.active, nav a:hover{
+    background-color: silver;
+    color: black;
+    width: 100%;
+    align-items: center;
+
 }
 
 
@@ -70,14 +82,13 @@ i{
 
 }
 
-
 .header {
-    background-image: url('images/header-background.jpg');
+    background-color: black;
     text-indent: 2em;
     width:100%;
     padding-bottom: 25px;
-    color: orange;
-    border-bottom: orange ridge 5px;
+    color: silver;
+    border-bottom: silver ridge 5px;
 }
 
 header h1 {
@@ -87,13 +98,13 @@ header h1 {
 
 span p {
     font-size: 3em;
-    color: orange;
+    color: silver;
     text-align: center;
 }
 
 h2{
     font-size: 3em;
-    color: darkblue;
+    color: silver;
     text-align: center;
     padding: 25px;
 
@@ -102,10 +113,10 @@ h2{
 
 section p{
     font-size: 1.5em;
-    color: orange;
+    color: silver;
     text-align: center;
     padding: 10px;
-    background-image: url('images/header-background.jpg');
+    background-color: black;
     max-width: 100%;
     margin-left: 25px;
     margin-right: 25px;
@@ -123,15 +134,26 @@ section p{
 
     #projects-list article {
         text-align: center;
-        background-image: url('images/header-background.jpg');
+        background-color: black;
         padding: 1em;
         border-radius: 1em;
         margin-bottom: .5em;
+    }
+
+    #projects-list article h3{
+        color: silver;
+        font-size: 2em;
+        margin-top:20px;
+        margin-bottom: 20px;
+
+
+
     }
 
     #projects-list article img {
         width: 100%;
         justify-items: center;
         image-orientation: inherit;
+        margin-bottom: 20px;
     }
 
