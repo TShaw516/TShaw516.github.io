@@ -59,6 +59,7 @@ a.active, nav a:hover{
     color: black;
     width: 100%;
     align-items: center;
+    transition: background-color 1s;
 
 }
 
@@ -156,4 +157,40 @@ section p{
         image-orientation: inherit;
         margin-bottom: 20px;
     }
+
+    .button {
+            border: 3px solid silver;
+            padding: 20px;
+        }
+       .button:hover {
+            border: 3px dotted silver;
+            color: silver;
+            background: black;
+        }
+
+    .contact {
+        text-align: center;
+        color: silver;
+        border-radius: 1em;
+        
+    }
+
+    .contact a{
+        font-size: 1.5em;
+        text-decoration: none;
+        color: inherit;
+
+    }
+
+    .contact a:hover{
+        color:black;
+        background-color: silver;
+        width: 100%;
+        align-items: center;
+        transition: background-color 1s;
+
+    }
+
+   
+
 
