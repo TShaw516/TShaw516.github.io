@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font: 400 16px 'Montserrat', 'sans-serif';
+    font: 400 16px 'racing sans one', 'Montserrat', 'sans-serif';
 }
 .container {
     display: grid;
@@ -16,6 +16,17 @@
     grid-template-rows: auto;
     height: 100vh;
   }
+
+
+
+main {
+    background-color: whitesmoke;
+    background-size: 100%;
+    background-position: bottom;
+    background-size: inherit;
+    margin: 0 auto;
+  
+}
    
   nav{  
     display: flex;
@@ -39,12 +50,6 @@ nav a{
         font-size: 2rem;
 }
 
-main{
-    grid-area: content;
-    background-image: url('images/abstract.jpg');
-    background-position: center;
-}
-
 
 .Photo{
     max-width: 100%;
@@ -62,5 +67,48 @@ main{
 }
 i{
     margin: auto;
+
+}
+
+
+.header {
+    background-image: url('images/header-background.jpg');
+    text-indent: 2em;
+    width:100%;
+    padding-bottom: 25px;
+    color: orange;
+    border-bottom: orange ridge 5px;
+}
+
+header h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+span p {
+    font-size: 3em;
+    color: orange;
+    text-align: center;
+}
+
+h2{
+    font-size: 3em;
+    color: darkblue;
+    text-align: center;
+    padding: 25px;
+
+
+}
+
+section p{
+    font-size: 1.5em;
+    color: orange;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 10px ridge orange;
+    background-image: url('images/header-background.jpg');
+    max-width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
 
 }
