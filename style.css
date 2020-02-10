@@ -207,6 +207,12 @@ section p{
         
     }
 
+    .divider{
+        border: 10px solid silver;
+        border-radius: 5px;
+
+    }
+
   
 
 
