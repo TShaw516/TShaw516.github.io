@@ -20,7 +20,7 @@
 
 
 main {
-    background-color: black;
+    background-image: url('images/neuron.jpg');
     background-size: 100%;
     background-position: bottom;
     background-size: inherit;
@@ -84,7 +84,7 @@ i{
 }
 
 .header {
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0.50);
     text-indent: 2em;
     width:100%;
     padding-bottom: 25px;
@@ -117,7 +117,7 @@ section p{
     color: silver;
     text-align: center;
     padding: 10px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.50);
     max-width: 100%;
     margin-left: 25px;
     margin-right: 25px;
@@ -135,7 +135,7 @@ section p{
 
     #projects-list article {
         text-align: center;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.75);
         padding: 1em;
         border-radius: 1em;
         margin-bottom: .5em;
