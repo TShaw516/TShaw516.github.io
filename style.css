@@ -105,10 +105,33 @@ section p{
     color: orange;
     text-align: center;
     padding: 10px;
-    border-bottom: 10px ridge orange;
     background-image: url('images/header-background.jpg');
     max-width: 100%;
     margin-left: 25px;
     margin-right: 25px;
 
 }
+
+#projects-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 1em;
+        margin-left: 25px;
+        margin-right: 25px;    
+        
+    }
+
+    #projects-list article {
+        text-align: center;
+        background-image: url('images/header-background.jpg');
+        padding: 1em;
+        border-radius: 1em;
+        margin-bottom: .5em;
+    }
+
+    #projects-list article img {
+        width: 100%;
+        justify-items: center;
+        image-orientation: inherit;
+    }
+
