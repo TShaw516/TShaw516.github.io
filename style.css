@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font: 400 16px 'racing sans one', 'Montserrat', 'sans-serif';
+    font: 400 16px 'Montserrat', 'sans-serif';
 }
 .container {
     display: grid;
@@ -168,21 +168,21 @@ section p{
             background: black;
         }
 
-    .contact {
+    #contact {
         text-align: center;
         color: silver;
         border-radius: 1em;
         
     }
 
-    .contact a{
+    #contact a{
         font-size: 1.5em;
         text-decoration: none;
         color: inherit;
 
     }
 
-    .contact a:hover{
+    #contact a:hover{
         color:black;
         background-color: silver;
         width: 100%;
@@ -190,6 +190,10 @@ section p{
         transition: background-color 1s;
 
     }
+
+  
+
+
 
    
 
