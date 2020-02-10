@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     padding-bottom: auto;
-    font: 400 16px 'Montserrat', 'sans-serif';
+    font: 400 16px 'Cambria', 'Montserrat', 'sans-serif';
 }
 .container {
     display: grid;
