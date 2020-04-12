@@ -173,6 +173,7 @@ body {
     text-decoration: none;
   }
 
+/* Mobile Navigation */
 .mobile-nav-toggle {
     position: fixed;
     right: 15px;
