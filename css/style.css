@@ -69,7 +69,7 @@
   }
   
   #header .social-links a:hover {
-    background: #18d26e;
+    background: #ffb700;
   }
   
   @media (max-width: 992px) {
@@ -226,7 +226,7 @@ body {
   }
   
   .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-    color: #18d26e;
+    color: #ffb700;
     text-decoration: none;
   }
   
